@@ -1,0 +1,89 @@
+img { 
+display: block;
+  margin: auto;
+  max-height: 500px;
+  max-width: 850px;
+  margin: 40px auto;
+  border: 4px solid #36829B;
+  border-radius: 6px;
+}
+body {
+ background-color: 429EBD;
+}
+@font-face {
+	font-family: papyrus;
+	src: "papyrus.ttf"
+}
+@font-face {
+	font-family: palatino;
+	src: "palatino.ttf"
+}
+@font-face: {
+	font-family: trajan bold;
+	src: "TrajanPro-Bold"
+}
+h1 {
+ font-family: papyrus;
+ color: white;
+ font-size: 80px;
+ margin-top: auto;
+ margin-bottom: auto;
+ margin: 30px auto;
+}
+h2 {
+  font-family: paltino;
+  color: white;
+  font-size: 45px;
+ 
+}
+
+h3 {
+  font-family: paltino;
+  color: white;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: paltino;
+  color: white;
+  font-size: 30px;
+  margin: 30px auto;
+} 
+div {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	text-align:center;
+	max-width: 1300px;
+}
+.maintext {
+background-color: 36829B;
+padding: 20px;
+margin: 40px auto;
+}	
+
+.listadepremios {
+	color: white;
+	font-family: paltino;
+	list-style: none;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.link {
+  color: white;
+  font-family: trajan bold;
+  font-size: 35px;
+  margin: 45px auto;
+}
+ 
+ /* 1- Unica dificuldade que enfrentei talvez era a utilizacao das margens certas
+    2- Sempre esquecia me fechar divisoes, tal como nao consegui logo aplicar css a lista ordenada,
+	   mas depois lembrei usar classes
+	3- src- usamos este "src" para mostrar o caminho para qualquer elemento que queremos incorporar
+	   no nosso site(multimedia, link, outros tipos de files). Este elemento pode ser interno(na mesma pasta),
+	   tal como externo
+*/
+	
